@@ -31,27 +31,8 @@ void debug(Head head, Body... body){
 }
 
 /////
-
-
-void answer(){
-    int n;
-    cin>>n;
-    vector<int> a(n);
-    for (auto& v : a){
-        cin>>v;
-    }
-    for(int i=0; i<n; ++i){
-        debug(i, a[i]);
-        if(a[i] & 1){
-            cout<<Yes<<endl;
-        }else{
-            cout<<No<<endl;
-        }
-    }
-
-    return;
-}
-
+// test
+// #include "XXX/test_YYY.c++"
 /////
 
 int main(int argc, char* argv[]){
