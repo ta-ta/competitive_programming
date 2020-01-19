@@ -5,8 +5,8 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 
-const unsigned long long INF=INT_MAX/4;
-const unsigned long long MOD=1'000'000'007;
+const long long INF=INT_MAX/4;
+const long long MOD=1'000'000'007;
 const double EPS=1e-14;
 const bool DEBUG=true;
 
