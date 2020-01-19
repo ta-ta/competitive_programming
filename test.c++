@@ -32,7 +32,7 @@ void debug(Head head, Body... body){
 
 /////
 // test
-// #include "XXX/YYY.c++"
+// #include "XXX/test_YYY.c++"
 /////
 
 int main(int argc, char* argv[]){
