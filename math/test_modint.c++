@@ -1,4 +1,6 @@
-// 依存先
+///// dependency
+/////
+
 #include "modint.c++"
 
 void answer(){

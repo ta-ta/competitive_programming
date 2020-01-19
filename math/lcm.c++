@@ -1,4 +1,4 @@
-//lcm
+// lcm
 
 ///// dependency
 // #include "gcd.c++"

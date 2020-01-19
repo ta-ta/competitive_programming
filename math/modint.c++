@@ -1,4 +1,9 @@
-template< unsigned long long mod >
+// modint
+
+///// dependency
+/////
+
+template< long long mod >
 class ModInt {
 public:
     long long x;
