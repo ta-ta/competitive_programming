@@ -1,6 +1,7 @@
-#include<bits/stdc++.h>
+// gcd
 
-using namespace std;
+///// dependency
+/////
 
 tuple<long long, long long, long long> gcd(long long x, long long y) {
     // C = GCD(X, Y)
@@ -30,19 +31,3 @@ tuple<long long, long long, long long> gcd(long long x, long long y) {
     }
     return forward_as_tuple(b, u_1, v_1);
 }
-
-/*
-int main(int argc, char* argv[]){
-    cin.tie(0);
-    ios::sync_with_stdio(0);
-    cout.precision(10);
-
-    long A = 112, B = 123;
-    long long a, b, c;
-    tie(c, a, b) = gcd(A, B);
-    cout<<c<<endl;
-    cout<<a<<endl;
-    cout<<b<<endl;
-    return 0;
-}
-*/
